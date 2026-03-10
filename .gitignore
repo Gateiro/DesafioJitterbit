@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variáveis de Ambiente (CRUCIAL: contém sua senha do Postgres)
+.env
+
+# Logs do Sistema
+logs
+*.log
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs (Opcional, mas recomendado)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
