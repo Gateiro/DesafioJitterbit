@@ -75,9 +75,9 @@ O servidor será iniciado em `http://localhost:3000`.
 | --- | --- | --- |
 | **POST** | `/order` | Cria um novo pedido e os seus itens (mapeamento de PT para EN). |
 | **GET** | `/order/list/all` | Lista todos os pedidos registados. |
-| **GET** | `/order/:id` | Procura um pedido específico pelo ID passado na URL. |
-| **PUT** | `/order/:id` | Atualiza os dados (valor ou data) de um pedido existente. |
-| **DELETE** | `/order/:id` | Remove um pedido e os seus itens associados. |
+| **GET** | `/order/id` | Procura um pedido específico pelo ID passado na URL. |
+| **PUT** | `/order/id` | Atualiza os dados (valor ou data) de um pedido existente. |
+| **DELETE** | `/order/id` | Remove um pedido e os seus itens associados. |
 
 ### Exemplo de JSON para Criação (POST)
 
